@@ -1,0 +1,32 @@
+:root{
+    --verde:#00A149;
+    --blanco:#fff;
+    --rojo:#881014;
+    --oscuro:#000;
+    --titulos:'Arima',cursive;
+    --parrafos:'Mulish', sans-serif;
+}
+/*nox sizing boerd-box y inherit hace respetar los margenes principales
+RECOMENDABLE USAR PARA TOOS LOS PROYECTOS
+ejem:
+html
+{
+    box-sizing:border-box;
+    font-size: 62.5%;
+}
+*,*::after, *::before
+{
+    box-sizing: inherit;
+}
+*/
+html
+{
+    box-sizing:border-box;
+    font-size: 62.5%;
+}
+*,*::after, *::before
+{
+    box-sizing: inherit;
+}
+/*padding= agregar mrgenes interiores
+ 1 rem = a 10px que signidfica el tamaño de la letra*/
